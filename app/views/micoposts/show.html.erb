@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @micopost.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @micopost.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_micopost_path(@micopost) %> |
+<%= link_to 'Back', micoposts_path %>
